@@ -15,7 +15,7 @@ services:
       - local
 
   chainid-dash:
-    image: chainid/chainid-dash:latest
+    image: chainidio/chainid-dash:latest
     container_name: "chainid-dash-app"
     command: --templates http://templates/templates.json --no-analytics
     networks:
